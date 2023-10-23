@@ -8,3 +8,191 @@
 :root{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* stili header */
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 500;
+    /* DEBUG */
+    background-color: red;
+}
+
+/* stili main */
+main{
+    padding: 70px 0;
+}
+
+.main{
+    width: 100%;
+    /* DEBUG */
+    background-color: blue;
+    min-height: 400px;
+    margin: 100px 0 0 0;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: pink;
+    min-height: 400px;
+}
+
+.container.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-title{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    /* DEBUG */
+    min-height: 80px;
+    background-color: bisque;
+}
+
+/* section jumbotron */
+.main.jumbotron-section{
+    margin-top: 0;
+}
+
+.container.jumbotron{
+    width: 80%;
+    height: calc(100vh - 70px);
+}
+
+/* DEBUG */
+.col-jumbotron{
+    background-color: aqua;
+}
+
+h1{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    /* DEBUG */
+    min-height: 80px;
+    background-color: bisque;
+}
+
+.text-jumbotron{
+    flex-basis: 30%;
+}
+
+.img-jumbotron{
+    flex-basis: 65%;
+}
+
+/* section plan */
+.container.plans{
+    flex-wrap: wrap;
+}
+
+.col-plan{
+    flex-basis: calc((100% / 3) - 20px);
+    margin: 10px 0;
+    /* DEBUG */
+    background-color: blueviolet;
+}
+
+.col-plan.col-large{
+   flex-basis: 100%;
+}
+
+
+/* section partners*/
+.col-partners.img-partners{
+    flex-basis: 60%;
+}
+
+.col-partners.text-partners{
+    flex-basis: 35%;
+}
+
+/* DEBUG */
+.col-partners{
+    background-color: aqua;
+}
+
+
+/* section operations */
+.container.operations{
+    flex-wrap: wrap;
+}
+
+.col-operations{
+    flex-basis: calc((100% / 3) - 10px);
+    margin: 5px 0;
+    /* DEBUG */
+    background-color: blueviolet;
+}
+
+
+/* section team */
+.container.team{
+    width: 100%;
+    /* DEBUG */
+    background-color: white;
+}
+
+.main-title.team{
+    width: 40%;
+    margin: 0 15%;
+}
+
+#title-team{
+    margin-bottom: 100px;
+}
+
+#mix-of-teams{
+    /* DEBUG */
+    background-color: brown;
+    min-height: 300px;
+}
+
+#bring-dropbox{
+    /* DEBUG */
+    background-color: greenyellow;
+    min-height: 200px;
+}
+
+
+/* section faq */
+.question{
+    /* DEBUG */
+    min-height: 100px;
+    background-color: aquamarine;
+    margin: 10px 0;
+}
+
+/* stili footer */
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    /* DEBUG */
+    min-height: 200px;
+}
+
+.container.footer-top{
+    width: 80%;
+    /* DEBUG */
+    background-color: green;
+    min-height: 200px;
+}
+
+.container.footer-bottom{
+    width: 80%;
+    /* DEBUG */
+    background-color: yellow;
+    min-height: 50px;
+}
+.col-footer{
+    flex-basis: calc((100% / 5) - 20px);
+    margin: 20px 0;
+    /* DEBUG */
+    background-color: palevioletred;
+}
