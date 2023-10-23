@@ -15,9 +15,9 @@ a{
     color: white;
 }
 
-li{
+/* li{
     list-style-type: none;
-}
+} */
 
 /* stili header */
 header{
@@ -28,6 +28,10 @@ header{
     position: fixed;
     z-index: 500;
     background-color: white;
+}
+
+header li{
+        list-style-type: none;
 }
 
 #container-header{
@@ -42,6 +46,10 @@ header{
 
 .col-header.right{
     flex-basis: 40%;
+}
+
+#logo{
+    padding-left: 10px;
 }
 
 header ul{
@@ -144,9 +152,11 @@ h1{
     padding-top: 30px;
 }
 
+
 /* section plan */
 .container.plans{
     flex-wrap: wrap;
+    font-size: 15px;
 }
 
 .col-plan{
@@ -159,8 +169,6 @@ h1{
 
 .col-plan.col-large{
    flex-basis: 100%;
-   /* display: flex;
-   justify-content: space-between */
 }
 
 #flex-col{
@@ -190,7 +198,6 @@ h1{
     padding-bottom: 20px;
 }
 
-
 #input-container{
     width: 60%;
     margin: 0 auto;
@@ -212,13 +219,35 @@ input{
 }
 
 h3{
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 .col-description, .buy-container, h5{
     padding: 0 10px 0 20px;
     line-height: 30px;
+}
+
+.user::marker{
+    content: "\f007";
+    font-family: 'Font Awesome 6 Free';
+    padding-left: 20px;
+}
+
+.folder::marker{
+    content: "\f07b";
+    font-family: 'Font Awesome 6 Free';
+}
+
+.share::marker{
+    content: "\f1e0";
+    font-family: 'Font Awesome 6 Free';
+}
+
+.check::marker{
+    content: "\f00c";
+    font-family: 'Font Awesome 6 Free';
 }
 
 .month{
@@ -233,6 +262,8 @@ h3{
 
 .functions li{
     margin-bottom: 15px;
+    padding-left: 5px;
+    margin-left: 20px;
 }
 
 .button.try{
@@ -262,6 +293,8 @@ h5{
 
 .in-plan li{
     margin-bottom: 15px;
+    padding-left: 5px;
+    margin-left: 20px;
 }
 
 /* section partners*/
