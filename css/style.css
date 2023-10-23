@@ -298,6 +298,7 @@ h5{
 /* section partners*/
 .container.partners{
     align-items: center;
+    margin-top: 40px;
 }
 
 .col-partners.img-partners{
@@ -342,11 +343,12 @@ h5{
 
 .col-operations{
     flex-basis: calc((100% / 3) - 10px);
-    margin: 5px 0;
-    /* DEBUG */
-    background-color: blueviolet;
+    margin: 30px 0;
 }
 
+.col-operations img{
+    width: 100%;
+}
 
 /* section team */
 .container.team{
