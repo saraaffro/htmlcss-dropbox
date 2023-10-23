@@ -163,8 +163,6 @@ h1{
     flex-basis: calc((100% / 3) - 20px);
     margin: 10px 0;
     border: 1px solid #b3b5b1;
-    /* DEBUG
-    background-color: blueviolet; */
 }
 
 .col-plan.col-large{
@@ -298,12 +296,24 @@ h5{
 }
 
 /* section partners*/
+.container.partners{
+    align-items: center;
+}
+
 .col-partners.img-partners{
     flex-basis: 60%;
 }
 
 .col-partners.text-partners{
     flex-basis: 35%;
+}
+
+.img-partners img{
+    width: 100%;
+}
+
+.text-partners p{
+    padding-top: 15px;
 }
 
 .fa-check{
@@ -314,11 +324,16 @@ h5{
     padding-right: 5px;
 }
 
-/* DEBUG */
-.col-partners{
-    background-color: aqua;
+.button.find{
+    background-color: white;
+    border: 1px solid black;
+    width: 170px;
+    margin-top: 30px;
 }
 
+.find{
+    color: black;
+}
 
 /* section operations */
 .container.operations{
