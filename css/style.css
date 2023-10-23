@@ -9,14 +9,49 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+
 /* stili header */
 header{
     width: 100%;
     height: 70px;
+    display: flex;
+    align-items: center;
     position: fixed;
     z-index: 500;
-    /* DEBUG */
-    background-color: red;
+}
+
+#container-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-header{
+    flex-basis: 30%;
+}
+
+.col-header.right{
+    flex-basis: 40%;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+    background-color: #0061ff;
+    text-align: center;
+    padding: 10px;
+    color: white;
 }
 
 /* stili main */
@@ -30,6 +65,10 @@ main{
     background-color: blue;
     min-height: 400px;
     margin: 100px 0 0 0;
+}
+
+.jumbotron-section{
+    background-color: #b4d0e7;
 }
 
 .container{
