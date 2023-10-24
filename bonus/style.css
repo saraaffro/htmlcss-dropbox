@@ -59,11 +59,34 @@ ul a {
     color: black;
 }
 
+ul .voci-di-menu{
+    padding: 10px;
+}
+
+.voci-di-menu{
+    transition: all 0.3s ease-in-out;
+}
+
+.voci-di-menu:hover{
+    background-color: #f2eee8;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#not:hover{
+    background-color: white;
+}
+
 .button{
     background-color: #0061ff;
     text-align: center;
     padding: 10px;
     color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover{
+    background-color: #0042ad;
 }
 
 
@@ -388,8 +411,72 @@ h5{
 .brand-logo{
     flex-basis: 50%;
     position: relative;
-   /* DEBUG */
-    height: 220.5px;
+    height: 50%;
+    transition: all 0.1s ease-in-out;
+}
+
+.brand-logo.designit{
+    border: 10px solid #a2d39b;
+}
+
+.brand-logo.designit:hover{
+    border-color: #d9fbd4;
+}
+
+.brand-logo.asu{
+    border: 10px solid #61082b;
+}
+
+.brand-logo.asu:hover{
+    border: 10px solid #5e3848;
+}
+
+.brand-logo.uf{
+    border: 10px solid #0093ce;
+}
+
+.brand-logo.uf:hover{
+    border: 10px solid #70b3cd;
+}
+
+.brand-logo.topps{
+    border: 10px solid #ff1c1c;
+}
+
+.brand-logo.topps:hover{
+    border: 10px solid #f56c6c;
+}
+
+.brand-logo.bicycle{
+    border: 10px solid #d5001f;
+}
+
+.brand-logo.bicycle:hover{
+    border: 10px solid #d0495e;
+}
+
+.brand-logo.hearst{
+    border: 10px solid #b4d0e7;
+}
+
+.brand-logo.hearst:hover{
+    border: 10px solid #d2e7f9;
+}
+
+.brand-logo.lonely{
+    border: 10px solid #0d2481;
+}
+
+.brand-logo.lonely:hover{
+    border: 10px solid #354480;
+}
+
+.brand-logo.clear{
+    border: 10px solid #ffd830;
+}
+
+.brand-logo.clear:hover{
+    border: 10px solid #f8e284;
 }
 
 .brand-logo.clear img{
