@@ -86,10 +86,8 @@ main{
 
 .main-title{
     width: 60%;
-    margin: 0 auto;
+    margin: 40px auto;
     font-size: 40px;
-    /* DEBUG */
-    min-height: 80px;
 }
 
 /* section jumbotron */
@@ -395,7 +393,6 @@ h5{
 
 .brand-logo img{
     width: 100%;
-    fill: white;
 }
 
 .designit{
@@ -464,13 +461,13 @@ h5{
 
 #title-bring{
     width: 40%;
-    margin: 0 0 0 20%;
+    margin: 0 0 0 15%;
     font-size: 40px;
 }
 
 .button-container.bring{
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 180px;
 }
 
 .button.bring{
@@ -478,14 +475,23 @@ h5{
     color: black;
 }
 
+
+
 /* section faq */
 .question{
-    /* DEBUG */
-    min-height: 100px;
-    background-color: aquamarine;
-    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
 }
 
+.question.one{
+    border-top: 1px solid black;
+}
+
+.text-question{
+    padding: 40px 200px 40px 0;
+    font-weight: bold;
+}
 
 /* stili footer */
 footer{
@@ -493,6 +499,7 @@ footer{
     height: 500px;
     background-color: black;
     color: white;
+    margin-top: 150px;
 }
 
 .container.footer-top{
@@ -501,7 +508,7 @@ footer{
 }
 
 .container.footer-bottom{
-    width: 15%;
+    width: 7%;
     margin: 0 12%;
     border-top: 1px solid white;
     padding: 40px 0 40px 0;
