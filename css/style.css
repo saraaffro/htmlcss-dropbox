@@ -385,9 +385,20 @@ h5{
 
 .brand-logo{
     flex-basis: 50%;
+    height: 50%;
     position: relative;
-   /* DEBUG */
-    height: 220.5px;
+}
+
+.brand-logo.clear img{
+    min-height: 100px;
+}
+
+.brand-logo.bicycle img{
+    filter: invert(100%);
+}
+
+.brand-logo.uf img{
+    filter: invert(100%);
 }
 
 .img-logo{
