@@ -239,13 +239,14 @@ h3{
 }
 
 .share::marker{
-    content: "\f1e0";
+    content: "\f14d";
     font-family: 'Font Awesome 6 Free';
 }
 
 .check::marker{
-    content: "\f00c";
+    content: "\f14a";
     font-family: 'Font Awesome 6 Free';
+    color: #0061ff;
 }
 
 .month{
@@ -318,7 +319,7 @@ h5{
 }
 
 .fa-check{
-    color: #0061ff;
+   
 }
 
 .icons{
@@ -349,6 +350,7 @@ h5{
 .col-operations img{
     width: 100%;
 }
+
 
 /* section team */
 .container.team{
@@ -387,31 +389,41 @@ h5{
     margin: 10px 0;
 }
 
+
 /* stili footer */
 footer{
     width: 100%;
     background-color: black;
     color: white;
-    /* DEBUG */
-    min-height: 200px;
 }
 
 .container.footer-top{
     width: 80%;
-    /* DEBUG */
-    background-color: green;
-    min-height: 200px;
 }
 
 .container.footer-bottom{
-    width: 80%;
-    /* DEBUG */
-    background-color: yellow;
-    min-height: 50px;
+    width: 7%;
+    margin: 0 10%;
+    border-top: 1px solid white;
 }
+
 .col-footer{
     flex-basis: calc((100% / 5) - 20px);
     margin: 20px 0;
-    /* DEBUG */
-    background-color: palevioletred;
+}
+
+.col-footer li{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.col-footer a{
+    color: white;
+}
+
+#choose{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding-left: 3px;
+    margin-top: 20px;
 }
