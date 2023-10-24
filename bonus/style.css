@@ -513,14 +513,22 @@ h5{
     font-weight: bold;
 }
 
-.answer{
+.answer, .fa-chevron-up{
     display: none;
 }
 
-.question:hover .answer{
+.question-container:hover .answer{
+    display: block;
+    padding: 40px 0;
+}
+
+.question-container:hover .fa-chevron-up{
     display: block;
 }
 
+.question-container:hover .fa-chevron-down{
+    display: none;
+}
 
 
 /* stili footer */
