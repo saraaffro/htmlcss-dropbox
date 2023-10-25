@@ -28,10 +28,6 @@ header{
     background-color: white;
 }
 
-header li{
-        list-style-type: none;
-}
-
 #container-header{
     width: 100%;
     display: flex;
@@ -55,22 +51,21 @@ header ul{
     justify-content: space-around;
 }
 
-ul a {
+.voci-di-menu a {
     color: black;
-}
-
-ul .voci-di-menu{
-    padding: 10px;
 }
 
 .voci-di-menu{
     transition: all 0.3s ease-in-out;
+    padding: 10px;
+    list-style-type: none;
 }
 
 .voci-di-menu:hover{
     background-color: #f2eee8;
     text-align: center;
     border-radius: 5px;
+    text-decoration: underline;
 }
 
 #not:hover{
@@ -121,9 +116,8 @@ main{
 
 /* section jumbotron */
 .main.jumbotron-section{
-    padding-top: 50px;
+    padding-top: 80px;
     background-color: #b4d0e7;
-    min-height: calc(100vh - 80px);
 }
 
 .container.jumbotron{
@@ -166,8 +160,9 @@ h1{
 }
 
 .image{
-    width: 100%;
+    width: 700px;
     padding-top: 30px;
+    margin-bottom: -100px;
 }
 
 
@@ -488,6 +483,8 @@ background-color: rgb(215, 214, 214);
     border: 10px solid #f8e284;
 }
 
+/* fine hover sui loghi */
+
 .brand-logo.clear img{
     min-height: 100px;
 }
@@ -499,7 +496,6 @@ background-color: rgb(215, 214, 214);
 .brand-logo.uf img{
     filter: invert(100%);
 }
-/* fine hover sui loghi */
 
 .img-logo{
     position: absolute;

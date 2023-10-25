@@ -100,7 +100,6 @@ main{
 .main.jumbotron-section{
     padding-top: 50px;
     background-color: #b4d0e7;
-    min-height: calc(100vh - 70px);
 }
 
 .container.jumbotron{
